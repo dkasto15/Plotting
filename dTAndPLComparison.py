@@ -13,8 +13,8 @@ from sys import exit
 # # # User input
 
 path='/home/dkasto/Desktop/dTAndPLComparison' # path to directory with sample directories and SampleComparisons.py
-upNoiseLim=3000 #set region you want to plot [wavenumber]
-lowNoiseLim=2385 #set region you want to plot [wavenumber]
+upNoiseLim=3000 #set the region you want to plot [wavenumber]
+lowNoiseLim=2385 #set the region you want to plot [wavenumber]
 
 # # # Plotting
 def plotTime(title,xlabel,ylabel,legendLoc):
